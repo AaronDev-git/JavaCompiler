@@ -29,8 +29,8 @@ Name: "french"; MessagesFile: "compiler:Languages\French.isl"
 Name: "desktopicon"; Description: "{cm:CreateDesktopIcon}"; GroupDescription: "{cm:AdditionalIcons}"; Flags: unchecked
 
 [Files]
-Source: "C:\Users\aaron\Desktop\Mineloot_launcher\a.exe"; DestDir: "{app}"; Flags: ignoreversion ;Modify with the path of you'r EXE
-Source: "C:\Users\aaron\Desktop\Mineloot_launcher\jre\*"; DestDir: "{app}"; Flags: ignoreversion recursesubdirs createallsubdirs ;Modify with the path of you'r JRE
+Source: "...\a.exe"; DestDir: "{app}"; Flags: ignoreversion ;Modify with the path of you'r EXE generated with launch4j
+Source: "...\jre\*"; DestDir: "{app}"; Flags: ignoreversion recursesubdirs createallsubdirs ;Modify with the path of you'r custom JRE, previously created with the .bat file
 
 [Registry]
 Root: HKA; Subkey: "Software\Classes\{#MyAppAssocExt}\OpenWithProgids"; ValueType: string; ValueName: "{#MyAppAssocKey}"; ValueData: ""; Flags: uninsdeletevalue
