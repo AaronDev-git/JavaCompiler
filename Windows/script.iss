@@ -1,4 +1,4 @@
-#define MyAppName "MinelootLauncher"
+#define MyAppName "Example App"
 #define MyAppVersion "1.0"
 #define MyAppURL "https://www.example.com/"
 #define MyAppExeName "a.exe"  ;Modify with the name of you'r App
