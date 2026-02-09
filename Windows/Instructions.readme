@@ -1,0 +1,7 @@
+Create a exe instalator from a jar
+
+1. Generate the custom jre with the Script 
+2. Place the folder jre in another folder named jre wich needs to be in the same folder as the jar
+3. Generate the exe using launch4j or equivalent and in the jre paths write "jre" (see the picture)
+4. Once you have you'r exe open innosetup and paste the file .iss, run the compile process and you'll have a fully functionnal
+installer that allows you to transform you'r jar into a exe app for Windows
