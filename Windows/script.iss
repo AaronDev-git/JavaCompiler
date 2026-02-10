@@ -29,8 +29,8 @@ Name: "french"; MessagesFile: "compiler:Languages\French.isl"
 Name: "desktopicon"; Description: "{cm:CreateDesktopIcon}"; GroupDescription: "{cm:AdditionalIcons}"; Flags: unchecked
 
 [Files]
-Source: "...\a.exe"; DestDir: "{app}"; Flags: ignoreversion ;Modify with the path of you'r EXE generated with launch4j
-Source: "...\jre\*"; DestDir: "{app}"; Flags: ignoreversion recursesubdirs createallsubdirs ;Modify with the path of you'r custom JRE, previously created with the .bat file
+Source: "...\a.exe"; DestDir: "{app}"; Flags: ignoreversion ;Modify with the path of you're EXE generated with launch4j
+Source: "...\jre\*"; DestDir: "{app}"; Flags: ignoreversion recursesubdirs createallsubdirs ;Modify with the path of you're custom JRE, previously created with the .bat file
 
 [Registry]
 Root: HKA; Subkey: "Software\Classes\{#MyAppAssocExt}\OpenWithProgids"; ValueType: string; ValueName: "{#MyAppAssocKey}"; ValueData: ""; Flags: uninsdeletevalue
